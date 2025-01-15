@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column; /* Вертикальне розташування */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column; /* Кнопки одна під одною */
+            gap: 20px; /* Відстань між кнопками */
+        }
+
+        .button {
+            display: block; /* Займає всю ширину контейнера */
+            width: 200px; /* або auto для адаптивної ширини */
+            padding: 20px 40px;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-sizing: border-box; 
+        }
+
+        .button-top { 
+            background-color: #007bff;
+        }
+
+        .button-bottom { 
+            background-color: #28a745;
+        }
+
+        .button:hover {
+            opacity: 0.8;
+            cursor: pointer; 
+        }
+        .button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <h1>Оберіть гру:</h1>
+    <div class="container">
+        <a href="https://github.com/KuzmenkoEvgenij/game_demo/snake/" class="button button-top">Змійка</a>
+        <a href="https://github.com/KuzmenkoEvgenij/game_demo/klotski/" class="button button-bottom">Блоки</a>
+    </div>
+</body>
+</html>
