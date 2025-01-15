@@ -30652,7 +30652,7 @@ r=s==null?null:s.content
 s=r==null
 if(!s)self.window.console.warn("The `assetBase` meta tag is now deprecated.\nUse engineInitializer.initializeEngine(config) instead.\nSee: https://docs.flutter.dev/development/platform-integration/web/initialization")
 q=this.b=s?"":r
-s=q}return A.Kc(B.db,s+"assets/"+a,B.C,!1)}}
+s=q}return A.Kc(B.db,s+"https://github.com/KuzmenkoEvgenij/game_demo/snake/assets/"+a,B.C,!1)}}
 A.qu.prototype={
 E(){return"BrowserEngine."+this.b}}
 A.iU.prototype={
@@ -52840,7 +52840,7 @@ case 3:p.Br(b)
 case 1:return A.Q(q,r)}})
 return A.R($async$mw,r)},
 Ri(){this.a.toString
-switch(0){case 0:return A.oH("assets/rive/snake.riv")}},
+switch(0){case 0:return A.oH("https://github.com/KuzmenkoEvgenij/game_demo/snake/assets/rive/snake.riv")}},
 dI(a){var s,r,q=this
 q.ei(a)
 s=q.a
@@ -53500,7 +53500,7 @@ A.x3.prototype={
 bB(a){var s=0,r=A.S(t.H),q=this,p,o,n
 var $async$bB=A.T(function(b,c){if(b===1)return A.P(c,r)
 while(true)switch(s){case 0:s=2
-return A.U(A.wF(A.oH("assets/rive/snake.riv"),"ab_cookie"),$async$bB)
+return A.U(A.wF(A.oH("https://github.com/KuzmenkoEvgenij/game_demo/snake/assets/rive/snake.riv"),"ab_cookie"),$async$bB)
 case 2:o=c
 n=A.Vx(o,"sm_cookie")
 n.toString
