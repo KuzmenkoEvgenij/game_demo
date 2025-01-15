@@ -53649,7 +53649,7 @@ A.Jb.prototype={
 bB(a){var s=0,r=A.S(t.H),q=this,p,o
 var $async$bB=A.T(function(b,c){if(b===1)return A.P(c,r)
 while(true)switch(s){case 0:s=2
-return A.U(A.wF(A.oH("snake/assets/rive/snake.riv"),"ab_head"),$async$bB)
+return A.U(A.wF(A.oH("assets/rive/snake.riv"),"ab_head"),$async$bB)
 case 2:p=c
 o=A.Vx(p,"sm_head")
 q.b4=o
